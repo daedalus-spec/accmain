@@ -1,0 +1,101 @@
+/* ===== ROOT DASHBOARD LAYOUT ===== */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #0f1115;
+  color: #e5e7eb;
+  font-family: "Inter", sans-serif;
+}
+
+/* ===== SIDEBAR PLACEHOLDER (FOR LATER) ===== */
+.sidebar-placeholder {
+  width: 260px;
+  background-color: #0b0d11;
+}
+
+/* ===== MAIN CONTENT AREA ===== */
+.main-content {
+  flex: 1;
+  padding: 24px 32px;
+}
+
+/* ===== HEADER AREA ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+/* ===== HEADER RIGHT ===== */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-input {
+  background-color: #151a21;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #e5e7eb;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f97316;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000;
+}
+
+/* ===== INFO / SUMMARY CARDS ===== */
+.content-placeholder {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.info-card {
+  background-color: #151a21;
+  padding: 20px;
+  border-radius: 14px;
+  width: 220px;
+}
+
+.label {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.value {
+  font-size: 18px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+/* ===== GENERAL UTIL ===== */
+button {
+  cursor: pointer;
+}
